@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">caller</string>
+    <string name="InBound">InComing calls</string>
+    <string name="OutBound">OutGoing calls</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/InBound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Switch
+            android:id="@+id/fragment_switch"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Auto Answer "
+            android:background="@color/btnColors"
+            android:layout_marginTop="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="בחר זמן למענה אוטומטי"
+              android:textSize="23dp"
+
+              android:layout_marginTop="28dp"
+              app:layout_constraintTop_toBottomOf="@+id/fragment_switch"
+              app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:id="@+id/textView"/>
+
+    <NumberPicker
+            android:layout_width="163dp"
+            android:layout_height="108dp"
+            android:id="@+id/numberPicker"
+
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="124dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginTop="32dp"/>
+
+    <TextView
+              android:id="@+id/numberPickerShower"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:width="40dp"
+              android:height="40dp"
+              android:layout_marginTop="56dp"
+              app:layout_constraintTop_toBottomOf="@+id/numberPicker"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"
+              app:layout_constraintHorizontal_bias="0.498"/>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

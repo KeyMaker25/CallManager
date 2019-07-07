@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+            android:id="@+id/InBound_calls"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/InBound"
+            app:showAsAction="ifRoom"
+            android:enabled="true"
+
+    />
+
+    <item
+            app:showAsAction="ifRoom"
+            android:enabled="true"
+            android:id="@+id/Outbound_calls"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/OutBound"/>
+
+</menu>
