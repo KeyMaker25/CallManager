@@ -1,5 +1,12 @@
 # CallManager
-App that helps you navigate InComing calls to your phone, And helps you handle Unanswred calls 
 
+App helps you manage inComing calls, And can "replace" some paid services.
 
-My First try on kotlin. 
+all action in atfer incoming call.
+you have 3 stages - 
+
+- noPickUp - (no show)
+- answered - (pick up)
+- rejected - (onwer rejected the call)
+
+you can selecet that an sms will be send to the caller. with custom text.
