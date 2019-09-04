@@ -7,6 +7,6 @@ you have 3 stages -
 
 - noPickUp - (no show)
 - answered - (pick up)
-- rejected - (onwer rejected the call)
+- rejected - (owner rejected the call)
 
 you can selecet that an sms will be send to the caller. with custom text.
