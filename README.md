@@ -5,7 +5,7 @@ App helps you manage inComing calls, And can "replace" some paid services.
 all action in atfer incoming call.
 you have 3 stages - 
 
-- noPickUp - (no show)
+- noPickUp - (no answer)
 - answered - (pick up)
 - rejected - (owner rejected the call)
 
